@@ -55,8 +55,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -72,18 +70,18 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: const Text('Blue'),
                 style: ButtonStyle(
                   backgroundColor:
-                  MaterialStateProperty.all<Color>(Colors.blue),
+                      MaterialStateProperty.all<Color>(Colors.blue),
                   // Set background color
                   minimumSize:
-                  MaterialStateProperty.all(Size(double.infinity, 0)),
+                      MaterialStateProperty.all(Size(double.infinity, 0)),
                   // Set minimumSize for width to be 100%
                   foregroundColor:
-                  MaterialStateProperty.all<Color>(Colors.white),
+                      MaterialStateProperty.all<Color>(Colors.white),
                   // Set text color
                   shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                     RoundedRectangleBorder(
                       borderRadius:
-                      BorderRadius.circular(10), // Set border radius
+                          BorderRadius.circular(10), // Set border radius
                     ),
                   ),
                 ),
@@ -98,19 +96,18 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: null,
                 child: const Text('Red'),
                 style: ButtonStyle(
-                  backgroundColor:
-                  MaterialStateProperty.all<Color>(Colors.red),
+                  backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
                   // Set background color
                   minimumSize:
-                  MaterialStateProperty.all(Size(double.infinity, 0)),
+                      MaterialStateProperty.all(Size(double.infinity, 0)),
                   // Set minimumSize for width to be 100%
                   foregroundColor:
-                  MaterialStateProperty.all<Color>(Colors.white),
+                      MaterialStateProperty.all<Color>(Colors.white),
                   // Set text color
                   shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                     RoundedRectangleBorder(
                       borderRadius:
-                      BorderRadius.circular(10), // Set border radius
+                          BorderRadius.circular(10), // Set border radius
                     ),
                   ),
                 ),
@@ -126,18 +123,18 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: const Text('Amber'),
                 style: ButtonStyle(
                   backgroundColor:
-                  MaterialStateProperty.all<Color>(Colors.white),
+                      MaterialStateProperty.all<Color>(Colors.white),
                   // Set background color
                   minimumSize:
-                  MaterialStateProperty.all(Size(double.infinity, 0)),
+                      MaterialStateProperty.all(Size(double.infinity, 0)),
                   // Set minimumSize for width to be 100%
                   foregroundColor:
-                  MaterialStateProperty.all<Color>(Colors.amber),
+                      MaterialStateProperty.all<Color>(Colors.amber),
                   // Set text color
                   shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                     RoundedRectangleBorder(
                       borderRadius:
-                      BorderRadius.circular(10), // Set border radius
+                          BorderRadius.circular(10), // Set border radius
                     ),
                   ),
                 ),
@@ -153,15 +150,15 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: const Text('Indigo Text Button'),
                 style: ButtonStyle(
                   minimumSize:
-                  MaterialStateProperty.all(Size(double.infinity, 0)),
+                      MaterialStateProperty.all(Size(double.infinity, 0)),
                   // Set minimumSize for width to be 100%
                   foregroundColor:
-                  MaterialStateProperty.all<Color>(Colors.indigo),
+                      MaterialStateProperty.all<Color>(Colors.indigo),
                   // Set text color
                   shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                     RoundedRectangleBorder(
                       borderRadius:
-                      BorderRadius.circular(10), // Set border radius
+                          BorderRadius.circular(10), // Set border radius
                     ),
                   ),
                 ),
@@ -173,13 +170,13 @@ class _MyHomePageState extends State<MyHomePage> {
             child: SizedBox(
               height: 45,
               child: IconButton(
-              icon: Icon(Icons.favorite),
-              iconSize: 40,
-              color: Colors.red,
-              onPressed: () {},
-              ),
+                icon: Icon(Icons.favorite),
+                iconSize: 40,
+                color: Colors.red,
+                onPressed: () {},
               ),
             ),
+          ),
         ],
       ),
     );
